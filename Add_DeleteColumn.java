@@ -32,6 +32,7 @@ class Add_DeleteColumn{
             rs = st.executeQuery(query);
             while(rs.next())
                 System.out.println("Name : "+rs.getString("first_name"));
+            con.close();
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
