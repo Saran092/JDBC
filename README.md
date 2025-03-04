@@ -27,3 +27,5 @@ JDBC works in five main steps:
 If you have a "Select" Query you just need to createStatement() and executeQuery()
 
 If you have any Upadte, Modify, Insert, Delete and Like Updating your table you need to prepareStatement() and executeUpdate()
+
+You want to add jar file to connect SQL and Java 
